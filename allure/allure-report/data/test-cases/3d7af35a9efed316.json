@@ -1,0 +1,54 @@
+{
+  "uid" : "3d7af35a9efed316",
+  "name" : "Enter wrong email for Invalid login",
+  "fullName" : "Login Test - Invalid Login with Incorrect Email.Enter wrong email for Invalid login",
+  "historyId" : "14bdebc7b349cfbfd4fb7e22e4fdade2",
+  "time" : {
+    "start" : 1615071593848,
+    "stop" : 1615071596231,
+    "duration" : 2383
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test - Invalid Login with Incorrect Email"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test - Invalid Login with Incorrect Email"
+  }, {
+    "name" : "testMethod",
+    "value" : "Enter wrong email for Invalid login"
+  }, {
+    "name" : "package",
+    "value" : "Login Test - Invalid Login with Incorrect Email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d7af35a9efed316.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

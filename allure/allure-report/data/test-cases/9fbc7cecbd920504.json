@@ -1,0 +1,54 @@
+{
+  "uid" : "9fbc7cecbd920504",
+  "name" : "Click Forgot your password? link and verify forgot password page header title",
+  "fullName" : "Forgot Password Test.Click Forgot your password? link and verify forgot password page header title",
+  "historyId" : "5381833aa8bb2f6b2df2b3a000440426",
+  "time" : {
+    "start" : 1615071600168,
+    "stop" : 1615071601979,
+    "duration" : 1811
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Forgot Password Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Forgot Password Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click Forgot your password? link and verify forgot password page header title"
+  }, {
+    "name" : "package",
+    "value" : "Forgot Password Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fbc7cecbd920504.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

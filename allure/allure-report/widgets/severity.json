@@ -1,0 +1,181 @@
+[ {
+  "uid" : "7b8699e23f198d15",
+  "name" : "Enter User credentials to login then navigate to Market Place and download the free product",
+  "time" : {
+    "start" : 1615071574773,
+    "stop" : 1615071585896,
+    "duration" : 11123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d7af35a9efed316",
+  "name" : "Enter wrong email for Invalid login",
+  "time" : {
+    "start" : 1615071593848,
+    "stop" : 1615071596231,
+    "duration" : 2383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74d27bec85e1eebe",
+  "name" : "Sort by Rating",
+  "time" : {
+    "start" : 1615071622003,
+    "stop" : 1615071629047,
+    "duration" : 7044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b7854315a9efe80",
+  "name" : "Enetr email for forgot password and Verify email sent success message",
+  "time" : {
+    "start" : 1615071602217,
+    "stop" : 1615071604259,
+    "duration" : 2042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed71b778e81d95da",
+  "name" : "Click on the market Place free product and click Download",
+  "time" : {
+    "start" : 1615071563642,
+    "stop" : 1615071568228,
+    "duration" : 4586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2f0aea515908ff2",
+  "name" : "Sort by Price",
+  "time" : {
+    "start" : 1615071629099,
+    "stop" : 1615071636187,
+    "duration" : 7088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df3a3f63a19749e8",
+  "name" : "Navigate to market place and Verify the title and page url",
+  "time" : {
+    "start" : 1615071559048,
+    "stop" : 1615071562413,
+    "duration" : 3365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9c7092e9aedf804",
+  "name" : "Enter User credentials for Registration then verify page title and url",
+  "time" : {
+    "start" : 1615071607773,
+    "stop" : 1615071610792,
+    "duration" : 3019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf1e5a1e6ad1575b",
+  "name" : "Check Registration Page Logo and label is visible",
+  "time" : {
+    "start" : 1615071604746,
+    "stop" : 1615071607268,
+    "duration" : 2522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ff9b71f39f38b6b",
+  "name" : "Enter wrong password for Invalid login",
+  "time" : {
+    "start" : 1615071598350,
+    "stop" : 1615071600619,
+    "duration" : 2269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a599593d55dd54d0",
+  "name" : "Navigate to market place and Verify the title and page url",
+  "time" : {
+    "start" : 1615071610412,
+    "stop" : 1615071613043,
+    "duration" : 2631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13bb8737f7aa686",
+  "name" : "Enter User credentials for valid login",
+  "time" : {
+    "start" : 1615071591457,
+    "stop" : 1615071596202,
+    "duration" : 4745
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56e81f6d1a8c9a25",
+  "name" : "Sort by Name",
+  "time" : {
+    "start" : 1615071636038,
+    "stop" : 1615071642968,
+    "duration" : 6930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6aab0a307c78f36",
+  "name" : "Enter wrong password for Invalid login",
+  "time" : {
+    "start" : 1615071596074,
+    "stop" : 1615071598293,
+    "duration" : 2219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c9cf931e1c000b1",
+  "name" : "Edit the field username of Account details page and verify the success message",
+  "time" : {
+    "start" : 1615071584492,
+    "stop" : 1615071594199,
+    "duration" : 9707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0b9c6ba356435",
+  "name" : "Verify Login Page Logo and label is visible",
+  "time" : {
+    "start" : 1615071586704,
+    "stop" : 1615071588908,
+    "duration" : 2204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d683c5accaad1438",
+  "name" : "Enter Value in search bar and verify the search result",
+  "time" : {
+    "start" : 1615071614952,
+    "stop" : 1615071619484,
+    "duration" : 4532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fbc7cecbd920504",
+  "name" : "Click Forgot your password? link and verify forgot password page header title",
+  "time" : {
+    "start" : 1615071600168,
+    "stop" : 1615071601979,
+    "duration" : 1811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

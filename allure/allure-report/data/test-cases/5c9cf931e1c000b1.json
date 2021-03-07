@@ -1,0 +1,54 @@
+{
+  "uid" : "5c9cf931e1c000b1",
+  "name" : "Edit the field username of Account details page and verify the success message",
+  "fullName" : "Edit Account Details Test.Edit the field username of Account details page and verify the success message",
+  "historyId" : "430570b7d61f35bd5ee1df4aa60faced",
+  "time" : {
+    "start" : 1615071584492,
+    "stop" : 1615071594199,
+    "duration" : 9707
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Edit Account Details Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Edit Account Details Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Edit the field username of Account details page and verify the success message"
+  }, {
+    "name" : "package",
+    "value" : "Edit Account Details Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c9cf931e1c000b1.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

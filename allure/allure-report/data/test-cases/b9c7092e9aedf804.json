@@ -1,0 +1,54 @@
+{
+  "uid" : "b9c7092e9aedf804",
+  "name" : "Enter User credentials for Registration then verify page title and url",
+  "fullName" : "Registration Test.Enter User credentials for Registration then verify page title and url",
+  "historyId" : "14954c4709002dca0b7a3a7669614bb5",
+  "time" : {
+    "start" : 1615071607773,
+    "stop" : 1615071610792,
+    "duration" : 3019
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Enter User credentials for Registration then verify page title and url"
+  }, {
+    "name" : "package",
+    "value" : "Registration Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9c7092e9aedf804.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

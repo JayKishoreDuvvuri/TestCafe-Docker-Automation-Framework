@@ -1,0 +1,31 @@
+{
+	"name": "testcafe-",
+	"version": "1.0.0",
+	"description": "TestCafe Frontend Automation",
+	"main": "index.js",
+	"scripts": {
+		"clean": "rm -r allure/allure-results",
+		"test:chrome": "testcafe chrome ./tests -s takeOnFails=true  --reporter allure",
+		"test:chrome:headless": "testcafe chrome:headless ./tests -s takeOnFails=true",
+		"test:safari": "testcafe safari ./tests",
+		"test:firefox": "testcafe firefox ./tests",
+		"test:parallel": "testcafe chrome,firefox ./tests",
+		"allure-report": "allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report"
+	},
+	"keywords": [
+		"TestCafe",
+		"Automation",
+		"Testing"
+	],
+	"author": "Jay Kishore Duvvuri",
+	"license": "ISC",
+	"dependencies": {
+		"allure-commandline": "^2.13.8",
+		"prettier": "^2.2.1",
+		"testcafe": "^1.12.0",
+		"testcafe-reporter-allure": "^1.0.5"
+	},
+	"devDependencies": {
+		"xpath-to-css": "^1.0.5"
+	}
+}

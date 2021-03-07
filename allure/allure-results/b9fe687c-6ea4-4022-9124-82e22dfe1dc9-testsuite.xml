@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615071598350' stop='1615071598350'>
+    <name>Login Test - Invalid Login with Incorrect Email and Password</name>
+    <title>Login Test - Invalid Login with Incorrect Email and Password</title>
+    <test-cases>
+        <test-case start='1615071598350' status='passed' stop='1615071600619'>
+            <name>Enter wrong password for Invalid login</name>
+            <title>Enter wrong password for Invalid login</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 88.0.4324.192 / macOS 11.2.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

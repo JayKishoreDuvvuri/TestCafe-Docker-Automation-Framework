@@ -1,0 +1,54 @@
+{
+  "uid" : "13bb8737f7aa686",
+  "name" : "Enter User credentials for valid login",
+  "fullName" : "Login Test - Valid Login.Enter User credentials for valid login",
+  "historyId" : "ea96daf8d397a4a7d2e62bcc7761ac66",
+  "time" : {
+    "start" : 1615071591457,
+    "stop" : 1615071596202,
+    "duration" : 4745
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test - Valid Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test - Valid Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Enter User credentials for valid login"
+  }, {
+    "name" : "package",
+    "value" : "Login Test - Valid Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13bb8737f7aa686.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

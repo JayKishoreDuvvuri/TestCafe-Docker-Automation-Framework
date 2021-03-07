@@ -1,0 +1,54 @@
+{
+  "uid" : "bf1e5a1e6ad1575b",
+  "name" : "Check Registration Page Logo and label is visible",
+  "fullName" : "Registration Test.Check Registration Page Logo and label is visible",
+  "historyId" : "afd7ef14faf0cef948791fb2e8464f96",
+  "time" : {
+    "start" : 1615071604746,
+    "stop" : 1615071607268,
+    "duration" : 2522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Registration Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check Registration Page Logo and label is visible"
+  }, {
+    "name" : "package",
+    "value" : "Registration Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf1e5a1e6ad1575b.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

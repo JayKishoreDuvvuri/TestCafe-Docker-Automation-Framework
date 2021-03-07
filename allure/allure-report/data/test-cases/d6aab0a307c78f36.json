@@ -1,0 +1,54 @@
+{
+  "uid" : "d6aab0a307c78f36",
+  "name" : "Enter wrong password for Invalid login",
+  "fullName" : "Login Test - Invalid Login with Incorrect Password.Enter wrong password for Invalid login",
+  "historyId" : "a75894dbfb4360f96bc815936549ad2e",
+  "time" : {
+    "start" : 1615071596074,
+    "stop" : 1615071598293,
+    "duration" : 2219
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test - Invalid Login with Incorrect Password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test - Invalid Login with Incorrect Password"
+  }, {
+    "name" : "testMethod",
+    "value" : "Enter wrong password for Invalid login"
+  }, {
+    "name" : "package",
+    "value" : "Login Test - Invalid Login with Incorrect Password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6aab0a307c78f36.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

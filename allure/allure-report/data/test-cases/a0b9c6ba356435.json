@@ -1,0 +1,54 @@
+{
+  "uid" : "a0b9c6ba356435",
+  "name" : "Verify Login Page Logo and label is visible",
+  "fullName" : "Login Test - Valid Login.Verify Login Page Logo and label is visible",
+  "historyId" : "e328224ae6b4bef09e44294e8de3b6ca",
+  "time" : {
+    "start" : 1615071586704,
+    "stop" : 1615071588908,
+    "duration" : 2204
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test - Valid Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test - Valid Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Login Page Logo and label is visible"
+  }, {
+    "name" : "package",
+    "value" : "Login Test - Valid Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0b9c6ba356435.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

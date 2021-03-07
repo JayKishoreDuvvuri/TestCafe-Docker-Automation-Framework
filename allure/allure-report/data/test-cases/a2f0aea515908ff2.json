@@ -1,0 +1,54 @@
+{
+  "uid" : "a2f0aea515908ff2",
+  "name" : "Sort by Price",
+  "fullName" : "MarketPlace Test - Search Box Returns Relevant Results.Sort by Price",
+  "historyId" : "333706127bab24611b81f0716a17bbda",
+  "time" : {
+    "start" : 1615071629099,
+    "stop" : 1615071636187,
+    "duration" : 7088
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "MarketPlace Test - Search Box Returns Relevant Results"
+  }, {
+    "name" : "testClass",
+    "value" : "MarketPlace Test - Search Box Returns Relevant Results"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sort by Price"
+  }, {
+    "name" : "package",
+    "value" : "MarketPlace Test - Search Box Returns Relevant Results"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2f0aea515908ff2.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

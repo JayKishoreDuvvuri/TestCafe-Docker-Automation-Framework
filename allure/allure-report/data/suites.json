@@ -1,0 +1,275 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "MarketPlace Test - Download Free Product",
+    "children" : [ {
+      "name" : "Navigate to market place and Verify the title and page url",
+      "uid" : "df3a3f63a19749e8",
+      "parentUid" : "5f10a3978a37b9257b51842ecccede50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071559048,
+        "stop" : 1615071562413,
+        "duration" : 3365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    }, {
+      "name" : "Click on the market Place free product and click Download",
+      "uid" : "ed71b778e81d95da",
+      "parentUid" : "5f10a3978a37b9257b51842ecccede50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071563642,
+        "stop" : 1615071568228,
+        "duration" : 4586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    }, {
+      "name" : "Enter User credentials to login then navigate to Market Place and download the free product",
+      "uid" : "7b8699e23f198d15",
+      "parentUid" : "5f10a3978a37b9257b51842ecccede50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071574773,
+        "stop" : 1615071585896,
+        "duration" : 11123
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    } ],
+    "uid" : "5f10a3978a37b9257b51842ecccede50"
+  }, {
+    "name" : "Edit Account Details Test",
+    "children" : [ {
+      "name" : "Edit the field username of Account details page and verify the success message",
+      "uid" : "5c9cf931e1c000b1",
+      "parentUid" : "21dc65edfddab4198ce0f360e4892f53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071584492,
+        "stop" : 1615071594199,
+        "duration" : 9707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    } ],
+    "uid" : "21dc65edfddab4198ce0f360e4892f53"
+  }, {
+    "name" : "Login Test - Valid Login",
+    "children" : [ {
+      "name" : "Verify Login Page Logo and label is visible",
+      "uid" : "a0b9c6ba356435",
+      "parentUid" : "d2ef1f22686cf539ce8360a59add547a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071586704,
+        "stop" : 1615071588908,
+        "duration" : 2204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    }, {
+      "name" : "Enter User credentials for valid login",
+      "uid" : "13bb8737f7aa686",
+      "parentUid" : "d2ef1f22686cf539ce8360a59add547a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071591457,
+        "stop" : 1615071596202,
+        "duration" : 4745
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    } ],
+    "uid" : "d2ef1f22686cf539ce8360a59add547a"
+  }, {
+    "name" : "Login Test - Invalid Login with Incorrect Email",
+    "children" : [ {
+      "name" : "Enter wrong email for Invalid login",
+      "uid" : "3d7af35a9efed316",
+      "parentUid" : "82be25053fffe491c1c74aa68911dfec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071593848,
+        "stop" : 1615071596231,
+        "duration" : 2383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    } ],
+    "uid" : "82be25053fffe491c1c74aa68911dfec"
+  }, {
+    "name" : "Login Test - Invalid Login with Incorrect Password",
+    "children" : [ {
+      "name" : "Enter wrong password for Invalid login",
+      "uid" : "d6aab0a307c78f36",
+      "parentUid" : "34a35c1aeed9288121300e271b013a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071596074,
+        "stop" : 1615071598293,
+        "duration" : 2219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    } ],
+    "uid" : "34a35c1aeed9288121300e271b013a88"
+  }, {
+    "name" : "Login Test - Invalid Login with Incorrect Email and Password",
+    "children" : [ {
+      "name" : "Enter wrong password for Invalid login",
+      "uid" : "8ff9b71f39f38b6b",
+      "parentUid" : "e19aec5a94f00391e119ae597429095f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071598350,
+        "stop" : 1615071600619,
+        "duration" : 2269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    } ],
+    "uid" : "e19aec5a94f00391e119ae597429095f"
+  }, {
+    "name" : "Forgot Password Test",
+    "children" : [ {
+      "name" : "Click Forgot your password? link and verify forgot password page header title",
+      "uid" : "9fbc7cecbd920504",
+      "parentUid" : "ccac0b2cc77f67f85f802632052d94bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071600168,
+        "stop" : 1615071601979,
+        "duration" : 1811
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    }, {
+      "name" : "Enetr email for forgot password and Verify email sent success message",
+      "uid" : "1b7854315a9efe80",
+      "parentUid" : "ccac0b2cc77f67f85f802632052d94bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071602217,
+        "stop" : 1615071604259,
+        "duration" : 2042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    } ],
+    "uid" : "ccac0b2cc77f67f85f802632052d94bd"
+  }, {
+    "name" : "Registration Test",
+    "children" : [ {
+      "name" : "Check Registration Page Logo and label is visible",
+      "uid" : "bf1e5a1e6ad1575b",
+      "parentUid" : "c17c777b67ca644d8ecd422a27057ec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071604746,
+        "stop" : 1615071607268,
+        "duration" : 2522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    }, {
+      "name" : "Enter User credentials for Registration then verify page title and url",
+      "uid" : "b9c7092e9aedf804",
+      "parentUid" : "c17c777b67ca644d8ecd422a27057ec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071607773,
+        "stop" : 1615071610792,
+        "duration" : 3019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    } ],
+    "uid" : "c17c777b67ca644d8ecd422a27057ec7"
+  }, {
+    "name" : "MarketPlace Test - Search Box Returns Relevant Results",
+    "children" : [ {
+      "name" : "Navigate to market place and Verify the title and page url",
+      "uid" : "a599593d55dd54d0",
+      "parentUid" : "e07ce9e39abe812955dbc40b51a1ba29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071610412,
+        "stop" : 1615071613043,
+        "duration" : 2631
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    }, {
+      "name" : "Enter Value in search bar and verify the search result",
+      "uid" : "d683c5accaad1438",
+      "parentUid" : "e07ce9e39abe812955dbc40b51a1ba29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071614952,
+        "stop" : 1615071619484,
+        "duration" : 4532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    }, {
+      "name" : "Sort by Rating",
+      "uid" : "74d27bec85e1eebe",
+      "parentUid" : "e07ce9e39abe812955dbc40b51a1ba29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071622003,
+        "stop" : 1615071629047,
+        "duration" : 7044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    }, {
+      "name" : "Sort by Price",
+      "uid" : "a2f0aea515908ff2",
+      "parentUid" : "e07ce9e39abe812955dbc40b51a1ba29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071629099,
+        "stop" : 1615071636187,
+        "duration" : 7088
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    }, {
+      "name" : "Sort by Name",
+      "uid" : "56e81f6d1a8c9a25",
+      "parentUid" : "e07ce9e39abe812955dbc40b51a1ba29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615071636038,
+        "stop" : 1615071642968,
+        "duration" : 6930
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+    } ],
+    "uid" : "e07ce9e39abe812955dbc40b51a1ba29"
+  } ]
+}

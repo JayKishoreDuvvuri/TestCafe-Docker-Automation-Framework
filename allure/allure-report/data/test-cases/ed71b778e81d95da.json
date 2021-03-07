@@ -1,0 +1,54 @@
+{
+  "uid" : "ed71b778e81d95da",
+  "name" : "Click on the market Place free product and click Download",
+  "fullName" : "MarketPlace Test - Download Free Product.Click on the market Place free product and click Download",
+  "historyId" : "462f2e7765777129c469adef899187c",
+  "time" : {
+    "start" : 1615071563642,
+    "stop" : 1615071568228,
+    "duration" : 4586
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "MarketPlace Test - Download Free Product"
+  }, {
+    "name" : "testClass",
+    "value" : "MarketPlace Test - Download Free Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on the market Place free product and click Download"
+  }, {
+    "name" : "package",
+    "value" : "MarketPlace Test - Download Free Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 88.0.4324.192 / macOS 11.2.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed71b778e81d95da.json",
+  "parameterValues" : [ "Chrome 88.0.4324.192 / macOS 11.2.2" ]
+}

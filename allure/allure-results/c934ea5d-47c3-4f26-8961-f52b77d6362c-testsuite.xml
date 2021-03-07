@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615071584492' stop='1615071584492'>
+    <name>Edit Account Details Test</name>
+    <title>Edit Account Details Test</title>
+    <test-cases>
+        <test-case start='1615071584492' status='passed' stop='1615071594199'>
+            <name>Edit the field username of Account details page and verify the success message</name>
+            <title>Edit the field username of Account details page and verify the success message</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 88.0.4324.192 / macOS 11.2.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

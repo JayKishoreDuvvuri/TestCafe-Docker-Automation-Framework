@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615071559048' stop='1615071559048'>
+    <name>MarketPlace Test - Download Free Product</name>
+    <title>MarketPlace Test - Download Free Product</title>
+    <test-cases>
+        <test-case start='1615071559048' status='passed' stop='1615071562413'>
+            <name>Navigate to market place and Verify the title and page url</name>
+            <title>Navigate to market place and Verify the title and page url</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 88.0.4324.192 / macOS 11.2.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
