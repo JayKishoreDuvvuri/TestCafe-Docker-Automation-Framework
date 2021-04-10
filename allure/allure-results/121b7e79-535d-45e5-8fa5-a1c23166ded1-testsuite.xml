@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618075568945' stop='1618075568964'>
+    <name>MarketPlace Test - Download Free Product</name>
+    <title>MarketPlace Test - Download Free Product</title>
+    <test-cases>
+        <test-case start='1618075568945' status='failed' stop='1618075580595'>
+            <name>Enter User credentials to login then navigate to Market Place and download the free product</name>
+            <title>Enter User credentials to login then navigate to Market Place and download the free product</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 89.0.4389.114 / macOS 11.2.3'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7b47c1a0-7e65-4ae0-940c-f4ed72b4ec1e-attachment.png' type='image/png' size='257176'/>
+            </attachments>
+            <failure>
+                <message>AssertionError: expected 'Just a moment...' to deeply equal 'OpenCart - Account Login'</message>
+                <stack-trace>AssertionError: expected 'Just a moment...' to deeply equal 'OpenCart - Account Login'
+                
+                + expected - actual
+                
+                -'Just a moment...'
+                +'OpenCart - Account Login'
+                
+                
+                Browser: Chrome 89.0.4389.114 / macOS 11.2.3
+                Screenshot: /Users/Jay/Desktop/TestCafe/screenshots/2021-04-10_19-25-47/MarketPlace Test - Download Free Product.png
+                
+                   35 |    await marketPlacePage.clickDownloadButton()
+                   36 |})
+                   37 |
+                   38 |test('Enter User credentials to login then navigate to Market Place and download the free product', async t => {
+                   39 |	await marketPlacePage.clickLoginLink()
+                 > 40 |	await t.expect(actualTitle()).eql(loginTitle)
+                   41 |	await t.expect(actualURL()).contains(loginUrl)
+                   42 |	await loginPage.clickEmailField()
+                   43 |	await loginPage.enterEmail()
+                   44 |	await loginPage.enterPassword()
+                   45 |	await loginPage.clickSubmitButton()
+                
+                   at &lt;anonymous> (/Users/Jay/Desktop/TestCafe/tests/downloadFreeProduct.test.js:40:32)
+                   at asyncGeneratorStep (/Users/Jay/Desktop/TestCafe/tests/downloadFreeProduct.test.js:4:245)
+                   at _next (/Users/Jay/Desktop/TestCafe/tests/downloadFreeProduct.test.js:4:583)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

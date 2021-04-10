@@ -87,9 +87,17 @@ Top - Level Directory Layout
 ### Generate Test Report
 
 Run the following command on Terminal
-
 ```sh
 npm run clean
 npm run test:chrome
 npm run allure-report
 ```
+
+### Docker
+Run on firefox headless in Docker container
+```sh
+docker build -t testcafe:v1 .
+docker run -it testcafe:v1   
+```
+
+

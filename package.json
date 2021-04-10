@@ -1,10 +1,11 @@
 {
-	"name": "testcafe-",
+	"name": "testcafe-automation",
 	"version": "1.0.0",
 	"description": "TestCafe Frontend Automation",
 	"main": "index.js",
 	"scripts": {
 		"clean": "rm -r allure/allure-results",
+		"test": "testcafe firefox:headless ./tests",
 		"test:chrome": "testcafe chrome ./tests -s takeOnFails=true  --reporter allure",
 		"test:chrome:headless": "testcafe chrome:headless ./tests -s takeOnFails=true",
 		"test:safari": "testcafe safari ./tests",

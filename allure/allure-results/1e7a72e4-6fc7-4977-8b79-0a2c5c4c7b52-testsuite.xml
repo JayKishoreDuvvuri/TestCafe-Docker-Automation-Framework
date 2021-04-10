@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618075617915' stop='1618075617915'>
+    <name>MarketPlace Test - Search Box Returns Relevant Results</name>
+    <title>MarketPlace Test - Search Box Returns Relevant Results</title>
+    <test-cases>
+        <test-case start='1618075617915' status='passed' stop='1618075623485'>
+            <name>Enter Value in search bar and verify the search result</name>
+            <title>Enter Value in search bar and verify the search result</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 89.0.4389.114 / macOS 11.2.3'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

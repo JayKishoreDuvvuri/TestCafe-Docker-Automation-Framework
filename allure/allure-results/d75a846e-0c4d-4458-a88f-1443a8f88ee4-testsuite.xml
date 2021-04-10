@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618075609339' stop='1618075609355'>
+    <name>Registration Test</name>
+    <title>Registration Test</title>
+    <test-cases>
+        <test-case start='1618075609339' status='failed' stop='1618075613189'>
+            <name>Enter User credentials for Registration then verify page title and url</name>
+            <title>Enter User credentials for Registration then verify page title and url</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 89.0.4389.114 / macOS 11.2.3'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='deaf7928-1f76-4ec9-a680-1db9680e527c-attachment.png' type='image/png' size='148466'/>
+            </attachments>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>The "text" argument is expected to be a non-empty string, but it was undefined.
+                
+                Browser: Chrome 89.0.4389.114 / macOS 11.2.3
+                Screenshot: /Users/Jay/Desktop/TestCafe/screenshots/2021-04-10_19-25-47/Registration Test.png
+                
+                   45 |    	return await element.innerText
+                   46 |	}
+                   47 |
+                   48 |	async sendKeys(selector, text) {
+                   49 |		const element = $(selector)
+                 > 50 |		await t.typeText(element, text, { paste: true })
+                   51 |	}
+                   52 |
+                   53 |	async pressEnter() {
+                   54 |		return await t.pressKey('enter')
+                   55 |	}
+                
+                   at &lt;anonymous> (/Users/Jay/Desktop/TestCafe/pages/basePage.js:50:11)
+                   at asyncGeneratorStep (/Users/Jay/Desktop/TestCafe/pages/basePage.js:2:260)
+                   at _next (/Users/Jay/Desktop/TestCafe/pages/basePage.js:2:598)
+                   at &lt;anonymous> (/Users/Jay/Desktop/TestCafe/pages/basePage.js:2:763)
+                   at &lt;anonymous> (/Users/Jay/Desktop/TestCafe/pages/basePage.js:2:504)
+                   at RegistrationPage.sendKeys (/Users/Jay/Desktop/TestCafe/pages/basePage.js:48:33)
+                   at &lt;anonymous> (/Users/Jay/Desktop/TestCafe/pages/registrationPage.js:35:15)
+                   at asyncGeneratorStep (/Users/Jay/Desktop/TestCafe/pages/registrationPage.js:20:299)
+                   at _next (/Users/Jay/Desktop/TestCafe/pages/registrationPage.js:20:637)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

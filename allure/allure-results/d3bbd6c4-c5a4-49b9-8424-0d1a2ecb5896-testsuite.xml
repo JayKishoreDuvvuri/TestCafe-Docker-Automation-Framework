@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618075580464' stop='1618075580484'>
+    <name>Login Test - Invalid Login with Incorrect Email</name>
+    <title>Login Test - Invalid Login with Incorrect Email</title>
+    <test-cases>
+        <test-case start='1618075580464' status='failed' stop='1618075589828'>
+            <name>Enter wrong email for Invalid login</name>
+            <title>Enter wrong email for Invalid login</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 89.0.4389.114 / macOS 11.2.3'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='700c051f-65ac-4230-889f-382acb8e5f23-attachment.png' type='image/png' size='1114299'/>
+            </attachments>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>The "text" argument is expected to be a non-empty string, but it was undefined.
+                
+                Browser: Chrome 89.0.4389.114 / macOS 11.2.3
+                Screenshot: /Users/Jay/Desktop/TestCafe/screenshots/2021-04-10_19-25-47/Login Test - Invalid Login with Incorrect Email.png
+                
+                   45 |    	return await element.innerText
+                   46 |	}
+                   47 |
+                   48 |	async sendKeys(selector, text) {
+                   49 |		const element = $(selector)
+                 > 50 |		await t.typeText(element, text, { paste: true })
+                   51 |	}
+                   52 |
+                   53 |	async pressEnter() {
+                   54 |		return await t.pressKey('enter')
+                   55 |	}
+                
+                   at &lt;anonymous> (/Users/Jay/Desktop/TestCafe/pages/basePage.js:50:11)
+                   at asyncGeneratorStep (/Users/Jay/Desktop/TestCafe/pages/basePage.js:2:260)
+                   at _next (/Users/Jay/Desktop/TestCafe/pages/basePage.js:2:598)
+                   at &lt;anonymous> (/Users/Jay/Desktop/TestCafe/pages/basePage.js:2:763)
+                   at &lt;anonymous> (/Users/Jay/Desktop/TestCafe/pages/basePage.js:2:504)
+                   at LoginPage.sendKeys (/Users/Jay/Desktop/TestCafe/pages/basePage.js:48:33)
+                   at &lt;anonymous> (/Users/Jay/Desktop/TestCafe/pages/loginPage.js:48:15)
+                   at asyncGeneratorStep (/Users/Jay/Desktop/TestCafe/pages/loginPage.js:16:237)
+                   at _next (/Users/Jay/Desktop/TestCafe/pages/loginPage.js:16:575)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
