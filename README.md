@@ -61,16 +61,11 @@ Top - Level Directory Layout
 ├── pages                               # Generic functionality for tests
 │   |
 │   ├── basePage.js                     # Base page testing functionality
-│   ├── registrationPage.js             # Registration page testing functionality
-│   ├── loginPage.js                    # login page testing functionality
 │   ├── accountPage.js                  # Account details page testing functionality
 │   ├── marketPlacePage.js              # Market Place page testing functionality
 │
 │
-├── test                                # Test suite
-│    ├── registration.test.js           # Automated Test Script
-│    ├── login.testjs                   # Automated Test Script
-│    ├── editAccountDetails.test.js     # Automated Test Script
+├── tests                               # Test suite
 │    ├── downloadFreeProduct.test.js    # Automated Test Script
 │    ├── searchBox.test.js              # Automated Test Script
 │    ├── sortByFeature.test.js          # Automated Test Script
