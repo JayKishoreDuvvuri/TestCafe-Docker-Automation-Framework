@@ -4,7 +4,7 @@ An example project demonstrating automated UI tests with Node.js and JavaScript 
 
 ## Application Under Test
 
-We are using https://www.opencart.com/ as the Application Under Test.
+We are using https://www.opencart.com/ as the Application Under Test. 
 
 * URL : https://www.opencart.com/
 * OS  : macOS
